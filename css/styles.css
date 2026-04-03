@@ -1,9 +1,3 @@
-/* =========================
-   css/styles.css
-   White-first + Blue/Orange accents (flatter, more template-like)
-   ========================= */
-
-/* ===== Theme ===== */
 :root{
   --bg:#ffffff;
   --soft:#f7fafc;
@@ -15,10 +9,9 @@
   --orange:#f36c21;
 
   --radius:14px;
-  --shadow:none; /* keep it flat */
+  --shadow:none;
 }
 
-/* ===== Reset / Base ===== */
 *,
 *::before,
 *::after{ box-sizing:border-box; }
