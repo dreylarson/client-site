@@ -126,7 +126,7 @@ a:hover{ text-decoration:underline; }
   padding:0.3rem 0.45rem;
   border-radius:10px;
 }
-.nav a:hover{
+.nav a:not(.btn):hover{
   background:#eef6ff;
   text-decoration:none;
 }
@@ -149,7 +149,14 @@ a:hover{ text-decoration:underline; }
   color:#fff;
   border-color:var(--orange);
 }
-.btn-primary:hover{ filter:brightness(1.03); text-decoration:none; }
+
+.btn-primary:hover{
+  background:#d85b1c;
+  border-color:#d85b1c;
+  color:#fff;
+  text-decoration:none;
+  filter:none;
+}
 
 .btn-outline{
   background:#fff;
