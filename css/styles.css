@@ -156,6 +156,7 @@ a:hover{ text-decoration:underline; }
   color:var(--blue);
   border-color:var(--blue);
 }
+
 .btn-outline:hover{
   background:#eef6ff;
   text-decoration:none;
@@ -193,15 +194,6 @@ a:hover{ text-decoration:underline; }
   gap:2rem;
   align-items:start;
   padding:2.75rem 0;
-}
-
-.kicker{
-  margin:0;
-  color:var(--blue);
-  font-weight:800;
-  letter-spacing:0.08em;
-  text-transform:uppercase;
-  font-size:0.85rem;
 }
 
 h1{
